@@ -21,7 +21,7 @@ const makeChange = (c) => {
 		return { "q": arr[0], "d": arr[1], "n": arr[2], "p": arr[3] }
 	*/
   // your name here
-}
+
 let user ={
 	    q: 25, // Quarter value
         d: 10, // Dime value
