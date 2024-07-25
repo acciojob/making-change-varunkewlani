@@ -12,7 +12,7 @@ const makeChange = (c) => {
 			while(user.[i]>=c)
 			{
 				count++
-				c-=user.q
+				c-=user.[i]
 			}
 			arr.push(count)
 		}
