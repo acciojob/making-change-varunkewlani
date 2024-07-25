@@ -17,7 +17,7 @@ const makeChange = (c) => {
 			arr.push(count)
 		}
 	
-		return("{ "q":",arr[0],"""d":"",arr[1],""n":",arr[2],"""p":"",arr[3],"}")
+		return { "q": arr[0], "d": arr[1], "n": arr[2], "p": arr[3] }
 	
   // your name here
 };
