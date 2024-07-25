@@ -9,7 +9,7 @@ const makeChange = (c) => {
 	for(let i=0;i<4;i++)
 		{
 			let count=0;
-			while(user.[i]>=c)
+			while(user.[i]<=c)
 			{
 				count++
 				c-=user.[i]
